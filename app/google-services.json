@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "218643262107",
+    "firebase_url": "https://loginv1-db24c.firebaseio.com",
+    "project_id": "loginv1-db24c",
+    "storage_bucket": "loginv1-db24c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218643262107:android:8f15663dcdd9963f",
+        "android_client_info": {
+          "package_name": "com.example.loginv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218643262107-hjjf2fvpt89raoeprftmmjn25e5eb7ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdudscq2y11jbTHROABNSLP8cjvbC_IYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

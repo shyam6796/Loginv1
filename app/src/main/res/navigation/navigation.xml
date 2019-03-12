@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/route_fragment">
+    <fragment
+        android:id="@+id/route_fragment"
+        android:name="com.example.loginv1.List.RouteListFragment"
+        android:label="fragment_route"
+        tools:layout="@layout/fragment_route" >
+        <action
+            android:id="@+id/action_route_fragment_to_stopsFragment"
+            app:destination="@id/stopsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stopsFragment"
+        android:name="com.example.loginv1.Detail.BusStopsFragment"
+        android:label="fragment_stops"
+        tools:layout="@layout/fragment_stops" >
+        <action
+            android:id="@+id/action_stopsFragment_to_route_fragment"
+            app:destination="@id/route_fragment" />
+    </fragment>
+</navigation>

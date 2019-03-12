@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LoginV1</string>
+    <string name="first_name">Firstname</string>
+    <string name="Password">Password</string>
+    <string name="useridx">Userid</string>
+    <string name="userid">Userid</string>
+    <string name="Last_name">Lastname</string>
+    <string name="Email">email</string>
+    <string name="Age">Age</string>
+    <string name="Confirm_password">confirm_password</string>
+    <string name="Username">userid</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
